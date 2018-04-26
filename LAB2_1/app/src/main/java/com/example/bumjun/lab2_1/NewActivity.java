@@ -28,11 +28,9 @@ public class NewActivity extends AppCompatActivity {
             //notify delivered information (name,age)
             Toast.makeText(getApplicationContext(), "Student info:" + loginName + " " + loginAge, Toast.LENGTH_LONG).show();
 
-
         }
 
         button1.setOnClickListener(new View.OnClickListener() {
-
 
             public void onClick(View view) {
                 //finish this activity
@@ -40,8 +38,6 @@ public class NewActivity extends AppCompatActivity {
             }
         });
     }
-
-
 }
 
 

@@ -37,13 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("age", age);
                 // start NewActivity
                 startActivity(intent);
-
-
             }
 
         });
-
     }
-
-
 }

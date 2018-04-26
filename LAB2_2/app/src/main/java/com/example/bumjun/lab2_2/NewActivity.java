@@ -46,7 +46,6 @@ public class NewActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
             }
-
         });
 
         backBtn.setOnClickListener(new View.OnClickListener() {
@@ -56,14 +55,9 @@ public class NewActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"뒤로가기 버튼을 눌렀습니다.",Toast.LENGTH_LONG).show();
 
                 finish();
-
             }
 
-
-
         });
-
-
 
     }
 }
